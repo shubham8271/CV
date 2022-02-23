@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cookie&family=Ubuntu:wght@300&display=swap');
+
+
+
+body{
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    height: 90px;
+}
+.navbar img{
+    height: 72px;
+    width: 72px;
+    border: 3px solid #86C6F4;
+    border-radius: 100%;
+    position: absolute;
+    left: 140px;
+    top: 22px;
+}
+
+.navbar a{
+    padding: 0px 20px;
+    text-decoration: none;
+    position: relative;
+    color: black;
+    top: 30px;
+    right: 130px;
+    font-family: 'Alata', sans-serif;
+}
+.firstcontainer img{
+    height: 75vh;
+    width: 150vh;
+    position: absolute;
+    top: 150px;
+    left: 15%;
+}
+.firstcontainer{
+    height:550px;  
+}
+.firstcontainer h1{
+    position: absolute;
+    display: inline-block;
+    top: 180px;
+    width: 99%;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 70px;
+    margin: 0px;
+    color: #65C18C;
+}
+
+.firstcontainer p{
+    position: absolute;
+    display: inline-block;
+    top: 225px;
+    width: 99%;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+.codelogo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 300px;
+    left: 43%;
+}
+
+.middle-container img{
+    height: 200px;
+    width: 210px;
+    border-radius: 100%;
+    position: relative;
+    /* left: 44%; */
+}
+
+.middle-container{
+    text-align: center;
+}
+.bottom-container{
+    text-align: center;
+}
+.bottom-container a{
+    padding: 0px 10px;
+}
