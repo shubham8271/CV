@@ -155,6 +155,7 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
     .navbar{
         background-color: #0093E9;
 background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+background-size: cover;
     }
 
     .navbar img{
@@ -162,7 +163,6 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
         left: 507px;
         display: none;
     }
-
     .navbar a{
         left: -50px;
     }
