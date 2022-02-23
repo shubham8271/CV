@@ -149,9 +149,18 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 }
 
 @media (max-width:500px){
+    body{
+        margin: 0px;
+    }
+    .navbar{
+        background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    }
+
     .navbar img{
         position: absolute;
         left: 507px;
+        display: none;
     }
 
     .navbar a{
@@ -181,7 +190,7 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
     .middle-container{
        display: inline-block;
        width: 158%;
-       margin: auto;
+       margin: -100px auto;
     }
     .bottom-container{
        display: inline-block;
