@@ -201,4 +201,7 @@ background-size: cover;
        width: 105%;
        margin: 15px auto;
     }
+    .game-gif{
+        margin-right: -33px;
+    }
 }
