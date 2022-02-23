@@ -147,3 +147,45 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
     text-decoration: none;
     font-weight: bold;
 }
+
+@media (max-width:500px){
+    .navbar img{
+        position: absolute;
+        left: 507px;
+    }
+
+    .navbar a{
+        left: 58px;
+    }
+    .firstcontainer img{
+        height: auto;
+        width: 509px;
+    }
+    .firstcontainer h1{
+        height: auto;
+        width: 82%;
+        left: 149px;
+    }
+    .firstcontainer p{
+        height: auto;
+        width: 41%;
+        left: 220px;
+    }
+
+    .codelogo{
+        height: auto;
+        width: 20%;
+        left: 267px;
+    }
+
+    .middle-container{
+       display: inline-block;
+       width: 158%;
+       margin: auto;
+    }
+    .bottom-container{
+       display: inline-block;
+       width: 158%;
+       margin: 15px auto;
+    }
+}
